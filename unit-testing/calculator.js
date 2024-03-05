@@ -21,5 +21,5 @@ function multiply(a, b) {
 // Wir sind hier aber in NodeJS!
 module.exports.sum = sum;
 module.exports.divide = divide;
-module.exports.subtract = substract;
+module.exports.subtract = subtract;
 module.exports.multiply = multiply;
