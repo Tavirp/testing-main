@@ -1,0 +1,17 @@
+
+1.1
+Verschiedene Umgebungen werden zur besseren Strukturierung erstellt und um die Zuverlässigkeit von Programmen 
+sicherzustellen. 
+
+Entwicklungsumgebung: In der Entwicklungsumgebung wird Software entwickelt, bzw. neue Funktionen implementiert und durch Testing abgesichert.
+
+Testumgebung: Dient dazu, die Tests automatisiert Auszuführen.
+
+Staging-Umgebung: In der Staging-Umgebung werden Anwendungen unter fast realen Voraussetzungen getestet.
+
+Produktionsumgebun: Die Produktionsumgebung ist die Umgebung, in der die Anwendung am Ende läuft und (nur noch) überwacht wird.
+
+
+1.2
+Keine Ahnung, vielleicht Cypress? :-P
+
