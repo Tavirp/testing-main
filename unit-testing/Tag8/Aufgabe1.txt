@@ -1,0 +1,24 @@
+
+index.js
+- ein Teil der index.js wurde in die nie erstellte server.js verschoben und
+  in der neu hinzufügten Zeile 2 die server.js importiert (nur das warum hab ich noch nicht begriffen).
+
+
+package.json:
+- "test" Skript hinzugefügt, damit Jest als Testing framework verwendet wird
+- supertest und jest als Pakete hinzugefügt
+
+
+server.js
+- hier werden die Module eingebunden, die sich vorher in der index.js befanden
+
+
+TodosRoute.test.js
+- Ein Skript zum Testen der Todo-App, um zu prüfen, ob die Endpunkt-Routen wie erwartet auf Anfragen reagieren.
+
+
+jest.setup.js
+(hier hab ich noch Schwierigkeiten, zu beschreiben, wofür was passiert, ich probier mal, so weit ich kann)
+- Servermodul und Datenbank werden importiert
+- die Datenbank wird mit Sequelize synchronisiert, dann geleert und wieder
+  synchronisiert, um sie anschließend mit Testdaten zu füllen?!
